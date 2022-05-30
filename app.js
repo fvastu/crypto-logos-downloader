@@ -36,7 +36,7 @@ function downloadLogos() {
     }
 }
 
-function download(uri, folder, filename, extensionChosen){
+function download(uri, folder, filename, extensionChosen) {
     fetch(uri)
 	.then(res =>
 		res.body.pipe(fs.createWriteStream(folder + filename + '.' + extensionChosen))
