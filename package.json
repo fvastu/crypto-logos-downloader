@@ -11,7 +11,11 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "gifsicle": "^5.2.1",
     "node-fetch": "^3.2.4",
-    "request": "^2.88.2"
+    "pngquant-bin": "^6.0.1"
+  },
+  "devDependencies": {
+    "compress-images": "^2.0.5"
   }
 }
